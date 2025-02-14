@@ -5,3 +5,44 @@
     box-sizing: border-box;
     
 }
+
+body{
+
+    
+    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+.header {
+    background: blue;
+
+}
+.div__icons {
+
+    background: red;
+    justify-content: center;
+}
+
+.div__contenedor1 h1 {
+
+    background: purple;
+}
+
+.div__contenedor1 img  {
+
+    background: green;
+    justify-content:flex;
+    gap: 12px;
+}
+
+.div__boton {
+    flex-direction:column-reverse;
+
+    background: yellow;
+    justify-content: space-between;
+}
+
+.div__buscar {
+
+    background: pink;
+}
