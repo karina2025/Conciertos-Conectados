@@ -6,3 +6,38 @@
     
 }
 
+.header{
+
+    background: blue;
+    justify-content: flex;
+    margin: auto;
+    margin-top: 43px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div__icons{
+    background: yellow;
+}
+
+.div__titulo{
+    background: pink;
+}
+
+.div__buscador{
+
+    background: red;
+}
+
+.div__barra{
+    background:green ;
+}
+
+.div__container{
+
+    background: orange;
+}
+
+.carrusel__pequeño{
+    background: brown;
+}
