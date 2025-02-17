@@ -53,7 +53,7 @@
 .titulo2h1{
 
     font-size: 30px;
-    color:var(--color-2);
+    color:var(--color-10);
     font-family:"Inter-Semibold";
 
 }
@@ -102,7 +102,7 @@
 .div__container {
 
     position: relative;
-    background: pink;
+   /* background: pink;*/
     overflow-x: auto;
      bottom: 10px;
      padding: 10px 0;
@@ -122,7 +122,7 @@
 /********* Decoracion por parrafos ************/
 
 .carrusel__pequeño p:nth-child(1) {
-    background: var(--color-3); 
+    background: var(--color-12); 
     padding: 15px 20px;
     border-radius: 8px;
     width: 90%;
@@ -137,7 +137,7 @@
 }
 
 .carrusel__pequeño p:nth-child(2) {
-    background: var(--color-4); 
+    background: var(--color-14); 
     padding: 15px 20px;
     border-radius: 8px;
     width: 90%;
@@ -152,7 +152,7 @@
 }
 
 .carrusel__pequeño p:nth-child(3) {
-    background: var(--color-5); 
+    background: var(--color-13); 
     padding: 15px 20px;
     border-radius: 8px;
     width: 90%;
@@ -167,7 +167,7 @@
 }
 
 .carrusel__pequeño p:nth-child(4) {
-    background: var(--color-6); 
+    background: var(--color-11); 
     padding: 15px 20px;
     border-radius: 8px;
     width: 90%;
@@ -278,13 +278,13 @@
 
 .div__title__concert {
 
-    background: transparent;
+
+
 }
 
 .div__title__concierto span{
-    /* background: violet; */
+  
     font-size: 12px;
-    color: var(--color-1);
     background: transparent;
     font-family: "Inter-Semibold";
 }
@@ -363,7 +363,7 @@
 
 
 .ultima__caja {
-    /* background: red; */
+
     width: 95%;
     margin: auto;
     display: flex;
@@ -371,24 +371,22 @@
     gap: 16px;
 }
 .div__abajo {
-    /* background: rebeccapurple; */
-    /* padding: 5px; */
+
     display: flex;
     justify-content: space-between;
 }
 .div__abajo h2{
-    /* background: blue; */
+    
     font-size: 12px;
     font-family: "Inter-Semibold";
 }
 .div__abajo  p{
-    /* background: blueviolet; */
+    
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 .div__conciertos {
-    /* background: aqua; */
-    /* padding: 5px; */
+  
     display: flex;
     gap: 2%;
     justify-content: space-between;
@@ -400,7 +398,7 @@
 
 
 .div__concierto__solo {
-    /* background: purple; */
+
     width: 49%;
     margin-bottom: 20px;
     display: flex;
@@ -408,7 +406,7 @@
     gap: 9px;
 }
 .photo__concierto {
-    /* background: chartreuse; */
+
     display: flex;
     width: 95%;
     margin: auto;
@@ -416,11 +414,11 @@
     justify-content: center;
 }
 .photo__concierto img{
-    /* background: chartreuse; */
+
     width: 100%;
 }
 .titulo__concierto{
-    /* background: green; */
+
     width: 90%;
     margin: auto;
     display: flex;
@@ -428,56 +426,56 @@
     gap: 6px;
 }
 .titulo__concierto h4{
-    /* background: firebrick; */
+
     font-size: 10px;
     font-family: "Inter-Semibold";
 }
 .div__ubicacio__abajo {
-    /* background: gold; */
+
     width: 85%;
     display: flex;
     gap: 5%;
 }
 .div__ubicacion__abajo img{
-    /* background: violet; */
+
     width: 9px;
     height: 11px;
 }
 .div__ubicacion__abajo span{
-    /* background: peru; */
+    
     font-size: 10px;
     font-family: "Inter-Regular";
 }
 .div__fecha__abajo {
-    /* background: yellow; */
+
     width: 85%;
     display: flex;
     gap: 5%;
 }
 .div__fecha__abajo img{
-    /* background: grey; */
+
     width: 10px;
     height: 11px;
 }
 .div__fecha__abajo span{
-    /* background: fuchsia; */
+    
     font-size: 10px;
     font-family: "Inter-Regular";
 }
 .div__precio__abajo {
-    /* background: hotpink; */
+
     width: 90%;
     margin: auto;
     display: flex;
     gap: 5%;
 }
 .div__precio__abajo img{
-    /* background: greenyellow; */
+
     width: 16px;
     height: 16px;
 }
 .div__precio__abajo span{
-    /* background: teal; */
+
     font-size: 12px;
     font-family: "Inter-Semibold";
 }
