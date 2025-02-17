@@ -23,3 +23,10 @@
     font-family: "Inter-Regular";
     src: url(../storage/font/static/Inter_18pt-Regular.ttf);
 }
+
+
+@font-face {
+    font-family: "";
+    src: url(../storage/font/static/);
+}
+
