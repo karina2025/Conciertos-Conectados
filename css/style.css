@@ -359,5 +359,128 @@
     font-family: "Inter-Semibold";
 }
 
+/*************************************footer************************/
+
+
+.ultima__caja {
+    /* background: red; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.div__abajo {
+    /* background: rebeccapurple; */
+    /* padding: 5px; */
+    display: flex;
+    justify-content: space-between;
+}
+.div__abajo h2{
+    /* background: blue; */
+    font-size: 12px;
+    font-family: "Inter-Semibold";
+}
+.div__abajo  p{
+    /* background: blueviolet; */
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+.div__conciertos {
+    /* background: aqua; */
+    /* padding: 5px; */
+    display: flex;
+    gap: 2%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/*************************muse 1*****************************/
+
+
+.div__concierto__solo {
+    /* background: purple; */
+    width: 49%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.photo__concierto {
+    /* background: chartreuse; */
+    display: flex;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.photo__concierto img{
+    /* background: chartreuse; */
+    width: 100%;
+}
+.titulo__concierto{
+    /* background: green; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.titulo__concierto h4{
+    /* background: firebrick; */
+    font-size: 10px;
+    font-family: "Inter-Semibold";
+}
+.div__ubicacio__abajo {
+    /* background: gold; */
+    width: 85%;
+    display: flex;
+    gap: 5%;
+}
+.div__ubicacion__abajo img{
+    /* background: violet; */
+    width: 9px;
+    height: 11px;
+}
+.div__ubicacion__abajo span{
+    /* background: peru; */
+    font-size: 10px;
+    font-family: "Inter-Regular";
+}
+.div__fecha__abajo {
+    /* background: yellow; */
+    width: 85%;
+    display: flex;
+    gap: 5%;
+}
+.div__fecha__abajo img{
+    /* background: grey; */
+    width: 10px;
+    height: 11px;
+}
+.div__fecha__abajo span{
+    /* background: fuchsia; */
+    font-size: 10px;
+    font-family: "Inter-Regular";
+}
+.div__precio__abajo {
+    /* background: hotpink; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 5%;
+}
+.div__precio__abajo img{
+    /* background: greenyellow; */
+    width: 16px;
+    height: 16px;
+}
+.div__precio__abajo span{
+    /* background: teal; */
+    font-size: 12px;
+    font-family: "Inter-Semibold";
+}
+
 
 
