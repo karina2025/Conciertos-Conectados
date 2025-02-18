@@ -65,7 +65,12 @@
     left: 8%;
     gap: 16px;
     flex-direction: column;
-    padding: 12px;  
+    padding-bottom: 12px;
+    padding-left: 20px;  
+    padding-right: 20px;
+    padding-top: 12px;
+    
+
 } 
 
 
@@ -112,13 +117,17 @@
     font-size: 12px;
     font-family: "Inter-Regular";
 }
+.div__caja{
+
+/* background: pink;*/
+}
 
 .div__caja__personas{
     width: 70%;
     display: flex;
     margin-left: 0%;
-    padding: 16px;
-    padding: 12px;
+   
+    padding: left 12PX; ;
 
 
 
