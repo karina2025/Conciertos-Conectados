@@ -278,14 +278,15 @@
 
 .div__title__concert {
 
-
+    background: transparent;
 
 }
 
-.div__title__concierto span{
-  
-    font-size: 12px;
+.div__title__concert span{
+    color: var(--color-1);
+
     background: transparent;
+    font-size: 12px;
     font-family: "Inter-Semibold";
 }
 
@@ -475,7 +476,7 @@
     height: 16px;
 }
 .div__precio__abajo span{
-
+    color: var(--color-3);
     font-size: 12px;
     font-family: "Inter-Semibold";
 }

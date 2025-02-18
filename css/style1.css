@@ -9,7 +9,7 @@
 
 
 .header__cartelera {
-    background: pink;
+   /* background: pink;*/
     position: relative;
     width: 100%;
     height: auto;
@@ -17,46 +17,47 @@
 .foto__fondo{
 
     object-fit: cover;
-    background: red;
+   /* background: red;*/
      width: 100%;
     height: 100%;
     
 
 }
 
-.div__titulo{
+.titulo{
 
     width: 100%;
     display: flex;
     gap: 5px;
 }
 
-.div__titulo h2:nth-child(1) {
-    font-size: 14px;
-    color: var(--color-8);
-    font-family: "Inter-Semibold";
-}
-
-.div__titulo span:nth-child(2) {
-
+.titulo h2:nth-child(1) {
     font-size: 14px;
     color: var(--color-2);
-    font-family: "Inter-Semibold";
+    font-family: "Inter-SemiBold";
+}
+
+.titulo span:nth-child(2) {
+
+    font-size: 14px;
+    color: var(--color-8);
+    font-family: "Inter-SemiBold";
 
    
 }
 /************************************************/
 
 
-.div__mitad{
+.div__central{
 
 
-    
+    border-radius: 14px;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
+    border-radius: 14px;
     display: flex;
-    background: var(--color-1);
-   width: 85%;
+    background: var( --color-1);
+    width: 85%;
     height: 140px;
     margin: auto;
     position: absolute;
@@ -64,22 +65,25 @@
     left: 8%;
     gap: 16px;
     flex-direction: column;
-    
+    padding: 12px;  
 } 
 
-.div__ubicacion{
-    background: pink;
+
+
+.ubicacion{
+   /* background: pink;*/
 
 }
 
-.div__ubication img{
+.ubication img{
+    padding: 0%;
     width: 10px;
     height: 12px;
 
 
 }
 
-.div__ubicacion span{
+.ubicacion span{
     font-size: 12px;
     font-family: "Inter-Regular";
 
@@ -87,14 +91,14 @@
 
 }
 
-.div__calendario{
+.calendario{
 
-    background: orange;
+   /* background: orange;*/
 
 
 }
 
-.div__calendario img{
+.calendario img{
 
     width: 11px;
     height: 12px;
@@ -103,26 +107,30 @@
 
 
 
-.div__calendario span{
+.calendario span{
 
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 
-.div__gente{
+.div__caja__personas{
     width: 70%;
     display: flex;
-    margin-left: 7%;
+    margin-left: 0%;
+    padding: 16px;
+    padding: 12px;
+
 
 
 }
 /*****************************************personas**************/
 .photos__personas{
-    background: blueviolet;
+   /* background: blueviolet;*/
     display: flex;
-    
-
-
+    gap:0px;
+    width:60px;
+    height:28px ;
+    /* margin-right: 100px;*/
 }
 
 .photos__personas img:nth-child(1){
@@ -153,19 +161,20 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    right: 5%;
+   /* right: 5%;*/
+   
 }
 .cantidad__personas h4{
-    background: yellow;
-
+   /* background: yellow;*/
+    margin-left: 8px;
     display: flex;
     font-size: 12px;
-    font-family: "inter-medium"; 
+    font-family: "Inter-Medium"; 
 }
 
 /****************************************************************/
 
-.div__contenido{
+/*.div__contenido{
     padding: 5px;
     width: 93%;
     margin: 0 auto;
@@ -216,7 +225,7 @@
 
 .leer-mas {
     /* background: rgb(0, 174, 255); */
-    /* padding: 5px; */
+    /* padding: 5px; 
     color: var(--color-2);
     cursor: pointer;
     font-size: 12px;
@@ -245,6 +254,10 @@
   
   #leer-mas:checked + label {
     
-    display: none; /* Oculta el "Leer más" cuando se hace clic */
+    display: none; /* Oculta el "Leer más" cuando se hace clic *
   }
   
+.div__cajota{
+
+    background:blue;
+}
