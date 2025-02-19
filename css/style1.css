@@ -184,12 +184,11 @@
 /****************************************************************/
 
 .contenido {
-    /* background: rgb(30, 255, 0); */
-    /* padding: 5px; */
+  margin-top: 0%;
+  padding-top: 0%;
+  /*background: pink;*/
     width: 100%;
     height: auto;
-    /* margin-top: 15%;
-    margin-left: 4%; */
     display: flex;
     gap: 10px;
     flex-direction: column;
@@ -197,32 +196,52 @@
   }
 
   .encabezado_segundo{
-    /* background: red; */
-    /* padding: 5px; */
+  /* background: red; */
+  padding-bottom: 100px;
+  padding: 25px;
+  margin-bottom: 0%;
 }
 .encabezado_segundo span{
-    /* background: rgb(133, 71, 71); */
-    /* padding: 5px; */
+  padding-bottom: 50px;
+   /* background: rgb(128, 71, 133); */
+  /* padding: 5px;*/
+    font-size: 14px;
+    padding: 20px;
+    padding-right: 20px;
+    font-family: "inter-medium";
+}
+
+.encabezado_segundo h2 {
+
+ padding-top: 80px;
+ padding-left: 5px;
+  /*background: rgb(133, 71, 71); */
+  /* padding: 5px;*/
     font-size: 14px;
     font-family: "inter-medium";
 }
   
   .texto-visible {
-    /* background: rgb(208, 255, 0); */
-    /* padding: 5px; */
+    
+   /* background: rgb(208, 255, 0); */
+    padding:10px;
     display: inline; 
-    color: var(--color-11);
+    color: var(--color-2);
     font-size: 12px;
-    font-family: "DM-Sans-Mixed";
+    margin: 0%;
+    gap: 10px;
+    font-family: "inter-medium";
+    text-align: justify;
+    line-height: 1.5;
   }
   
   .leer-mas {
-    /* background: rgb(0, 174, 255); */
+     /*background: rgb(0, 174, 255); */
     /* padding: 5px; */
     color: var(--color-10);
     cursor: pointer;
     font-size: 12px;
-    font-family: "DM-Sans-Mixed";
+    font-family: "inter-medium";
     text-decoration: underline;
   }
   
@@ -233,12 +252,12 @@
   }
   
   .texto-adicional {
-    /* background: rgb(174, 0, 255); */
+    /*background: rgb(174, 0, 255); */
     /* padding: 5px; */
     display: none;
-    color: var(--color-11);
+    color: var(--color-2);
     font-size: 12px;
-    font-family: "DM-Sans-Mixed";
+    font-family: "inter-medium";
   }
   
   #leer-mas:checked + label + .texto-adicional {
@@ -254,7 +273,7 @@
   }
 
   .mapa_info{
-    /* background: red; */
+   /* background: red; */
     /* padding: 5px; */
     width: 100%;
     height: 100px;
@@ -266,19 +285,25 @@
 
   .mapa_info span{
     /* background: blue; */
+     font-family:"inter-medium" ;
+     font-size: 12px;
   }
 
-  .mapa_info a{
-    /* background: violet; */
-    /* padding: 5px; */
+  .mapa-info a{
+     /*background: violet; */
+    padding: 5px; 
     height: 260px;
   }
 
-  .mapa_info img{
+  .mapa-info img{
+    background-position: center;
+    max-width: 500px;
+    display: block;
+   /* padding-right: 8px;*/
     /* background: gold; */
-    /* padding: 5px; */
+    padding: 15px; 
     width: 100%;
-    /* height: 100px; */
+    height: auto; 
   }
 
 
