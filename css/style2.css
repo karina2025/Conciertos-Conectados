@@ -1,0 +1,359 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--color-1);
+    
+}
+
+
+.header__cartelera {
+   /* background: pink;*/
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.foto__fondo{
+
+    object-fit: cover;
+   /* background: red;*/
+     width: 100%;
+    height: 100%;
+    
+
+}
+
+.titulo{
+
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.titulo h2:nth-child(1) {
+    font-size: 14px;
+    color: var(--color-2);
+    font-family: "Inter-SemiBold";
+}
+
+.titulo span:nth-child(2) {
+
+    font-size: 14px;
+    color: var(--color-8);
+    font-family: "Inter-SemiBold";
+
+   
+}
+/************************************************/
+
+
+.div__central{
+
+
+    border-radius: 14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-radius: 14px;
+    display: flex;
+    background: var( --color-1);
+    width: 85%;
+    height: 140px;
+    margin: auto;
+    position: absolute;
+    top: 37%;
+    left: 8%;
+    gap: 16px;
+    flex-direction: column;
+    padding-bottom: 12px;
+    padding-left: 20px;  
+    padding-right: 20px;
+    padding-top: 12px;
+    
+
+} 
+
+
+
+.ubicacion{
+   /* background: pink;*/
+
+}
+
+.ubication img{
+    padding: 0%;
+    width: 10px;
+    height: 12px;
+
+
+}
+
+.ubicacion span{
+    font-size: 12px;
+    font-family: "Inter-Regular";
+
+
+
+}
+
+.calendario{
+
+   /* background: orange;*/
+
+
+}
+
+.calendario img{
+
+    width: 11px;
+    height: 12px;
+
+}
+
+
+
+.calendario span{
+
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+.div__caja{
+
+/* background: pink;*/
+}
+
+.div__caja__personas{
+    width: 70%;
+    display: flex;
+    margin-left: 0%;
+   
+    padding: left 12PX; ;
+
+
+
+}
+/*****************************************personas**************/
+.photos__personas{
+   /* background: blueviolet;*/
+    display: flex;
+    gap:0px;
+    width:60px;
+    height:28px ;
+    /* margin-right: 100px;*/
+}
+
+.photos__personas img:nth-child(1){
+
+    background: transparent;
+}
+
+.photos__personas img:nth-child(2){
+
+    background: transparent;
+    position: relative;
+    right: 15%;
+
+}
+
+.photos__personas img:nth-child(3){
+
+    background: transparent;
+    position: relative;
+    right: 25%;
+}
+
+
+
+.cantidad__personas{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   /* right: 5%;*/
+   
+}
+.cantidad__personas h4{
+   /* background: yellow;*/
+    margin-left: 8px;
+    display: flex;
+    font-size: 12px;
+    font-family: "Inter-Medium"; 
+}
+
+/****************************************************************/
+
+.contenido {
+  margin-top: 0%;
+  padding-top: 0%;
+  /*background: pink;*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .encabezado_segundo{
+  /* background: red; */
+  padding-bottom: 100px;
+  padding: 25px;
+  margin-bottom: 0%;
+}
+.encabezado_segundo span{
+  padding-bottom: 50px;
+   /* background: rgb(128, 71, 133); */
+  /* padding: 5px;*/
+    font-size: 14px;
+    padding: 20px;
+    padding-right: 20px;
+    font-family: "inter-medium";
+}
+
+.encabezado_segundo h2 {
+
+ padding-top: 80px;
+ padding-left: 5px;
+  /*background: rgb(133, 71, 71); */
+  /* padding: 5px;*/
+    font-size: 14px;
+    font-family: "inter-medium";
+}
+  
+  .texto-visible {
+    
+   /* background: rgb(208, 255, 0); */
+    padding:10px;
+    display: inline; 
+    color: var(--color-2);
+    font-size: 12px;
+    margin: 0%;
+    gap: 10px;
+    font-family: "inter-medium";
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  .leer-mas {
+     /*background: rgb(0, 174, 255); */
+    /* padding: 5px; */
+    color: var(--color-10);
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "inter-medium";
+    text-decoration: underline;
+  }
+  
+  .ocultar {
+    /* background: red; */
+    padding: 5px;
+    display: none;
+  }
+  
+  .texto-adicional {
+    /*background: rgb(174, 0, 255); */
+    /* padding: 5px; */
+    display: none;
+    color: var(--color-2);
+    font-size: 12px;
+    font-family: "inter-medium";
+  }
+  
+  #leer-mas:checked + label + .texto-adicional {
+    /* background: rgb(255, 0, 98); */
+    /* padding: 5px; */
+    display: inline; 
+  }
+  
+  #leer-mas:checked + label {
+    /* background: rgb(255, 217, 0); */
+    /* padding: 5px; */
+    display: none; 
+  }
+
+  .mapa_info{
+   /* background: red; */
+    /* padding: 5px; */
+    width: 100%;
+    height: 100px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mapa_info span{
+    /* background: blue; */
+     font-family:"inter-medium" ;
+     font-size: 12px;
+  }
+
+  .mapa-info a{
+     /*background: violet; */
+    padding: 5px; 
+    height: 260px;
+  }
+
+  .mapa-info img{
+    background-position: center;
+    max-width: 500px;
+    display: block;
+   /* padding-right: 8px;*/
+    /* background: gold; */
+    padding: 15px; 
+    width: 100%;
+    height: auto; 
+  }
+
+
+.caja_buy {
+    background: var(--color-1);
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    line-height: 20px;
+    bottom: 0;
+    display: flex;
+}
+.information_buy {
+    /* background: blue; */
+    /* padding: 5px; */
+    width: 40%;
+    height: 50px;
+    margin: auto;
+    margin-left: 22px;
+}
+.information_buy p{
+    /* background: rebeccapurple; */
+    font-size: 10px;
+    font-family: "Inter-Regular";
+}
+.information_buy span{
+    /* background: green; */
+    font-size: 16px;
+    font-family: "Inter-Semibold";
+}
+.buy {
+    background: var(--color-2);
+    margin: auto;
+    margin-right: 15px;
+    padding: 8px 8px;
+    width: 30%;
+    height: 35px;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.buy a{
+    background: transparent;
+    color: var(--color-1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "inter-medium";
+}
