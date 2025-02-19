@@ -1,6 +1,6 @@
 # Conciertos-Conectados
 
-# Para que sirve esta pagina y cal es el proposito?
+# Para que sirve esta pagina y cual es el proposito?
 
  Esta pagina sirve para mirar los nuevos conciertos que estan cerca de mi ciudad o donde yo me encuentre y ver la infomracion de ellos para saber si es de mi interes y poder comprar boletos.
 
