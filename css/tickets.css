@@ -1,0 +1,287 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(-40deg, var(--color-13), var(--color-12));
+    height: 790px;
+}
+
+
+
+.header_contenedor {
+    /* background: red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.caja_link {
+    /* background: greenyellow; */
+    display: flex;
+}
+.menu_suspensivos{
+    background: transparent;
+    width: 7%;
+
+}
+.imagen_retroceso {
+    background: var(--color-14);
+    border-radius: 6px;
+    padding: 4px 4px;
+}
+
+
+
+.carrusel_tickets {
+    width: 100%;
+    height: 85%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    margin-left: 2%;
+}
+.contenedor_tickets {
+    display: flex;
+    height: auto;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    margin-left: 10%;
+}
+
+
+
+.caja_main {
+    background: var(--color-1);
+    /* padding: 5px; */
+    border-radius: 20px;
+    width: 90%;
+    height: 86%;
+    margin: auto;
+    margin-top: 10%;
+}
+.concert_ticket {
+    /* background: rebeccapurple; */
+    padding-top: 10px;
+    width: 95%;
+    height: auto;
+    margin: 2.6%;
+}
+.concert_ticket img{
+    /* background: blue; */
+    padding: 5px;
+    width: 100%;
+}
+
+/******* TITULO DEL CONCIERTO ********/
+
+.caja_padre_info {
+    /* background: brown; */
+    padding: 5px;
+    width: 95%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.info_titulo {
+    /* background: violet; */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.info_titulo span{
+    /* background: seagreen; */
+    font-size: 18px;
+    font-family: "Inter-Semibold";
+}
+.info_titulo p{
+    /* background: gray; */
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+
+/********************* informacion sobre el ticket y concierto ****************/
+
+.div_information {
+    /* background: fuchsia; */
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.subdiv_information {
+    /* background: gold; */
+    padding: 5px;
+    width: 95%;
+    display: flex;
+    /* gap: 10%; */
+    justify-content: space-between;
+}
+
+/********* CAJA 1 ******/
+
+.information1 {
+    /* background-color: aquamarine; */
+    padding: 5px;
+}
+.information1 p{
+    /* background: forestgreen; */
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+.information1 span{
+    /* background: greenyellow; */
+    font-size: 14px;
+    font-family: "Inter-Semibold";
+}
+.information2 {
+    /* background-color: rgb(79, 156, 131); */
+    padding: 5px;
+}
+.information2 p{
+    /* background: thistle; */
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+.information2 span{
+    /* background: teal; */
+    font-size: 14px;
+    font-family: "Inter-Semibold";
+}
+
+/**************************************** CAJA 2 **************************************/
+
+.subdiv_information2 {
+    /* background: gold; */
+    padding: 5px;
+    width: 95%;
+    display: flex;
+    gap: 40%;
+}
+.information3 {
+    /* background-color: aquamarine; */
+    padding: 5px;
+}
+.information3 p{
+    /* background: forestgreen; */
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+.information3 span{
+    /* background: greenyellow; */
+    font-size: 14px;
+    font-family: "Inter-Semibold";
+}
+.information4 {
+    /* background-color: rgb(79, 156, 131); */
+    padding: 5px;
+}
+.information4 p{
+    /* background: thistle; */
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+.information4 span{
+    /* background: teal; */
+    font-size: 14px;
+    font-family: "Inter-Semibold";
+}
+
+/**************************************** CAJA 3 **************************************/
+
+.subdiv_information3 {
+    /* background: gold; */
+    padding: 5px;
+    width: 95%;
+    display: flex;
+    gap: 53%;
+}
+.information5 {
+    /* background-color: aquamarine; */
+    padding: 5px;
+}
+.information5 p{
+    /* background: forestgreen; */
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+.information5 span{
+    /* background: greenyellow; */
+    font-size: 14px;
+    font-family: "Inter-Semibold";
+}
+.information6 {
+    /* background-color: rgb(79, 156, 131); */
+    padding: 5px;
+}
+.information6 p{
+    /* background: thistle; */
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+.information6 span{
+    /* background: teal; */
+    font-size: 14px;
+    font-family: "Inter-Semibold";
+}
+
+/************************************ LINEA TICKET ***************************/
+
+.lineartxd {
+    /* background: turquoise; */
+    /* padding: 5px; */
+    width: 102%;
+    position: relative;
+    right: 1%;
+}
+.lineartxd img{
+    /* background: ghostwhite; */
+    /* padding: 5px; */
+    width: 100%;
+}
+
+
+/********************************* CODIGO DE BARRAS *************************/
+
+.codigo_barras {
+    /* background: indigo; */
+    /* padding: 5px; */
+    width: 100%;
+}
+.codigo_barras img{
+    /* background: navy; */
+    padding: 5px;
+    width: 85%;
+    margin-left: 8%;
+}
+
+/****** COMENTARIOS **********/
+
+
+.coments {
+    /* background: khaki; */
+    padding: 5px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* margin-left: 15%; */
+}
+.coments span{
+    /* background: brown; */
+    font-size: 12px;
+    font-family: "Inter-Regular";
+}
+
