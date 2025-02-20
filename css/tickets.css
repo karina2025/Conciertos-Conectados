@@ -14,7 +14,7 @@ body{
 
 
 .header_contenedor {
-    /* background: red; */
+    
     width: 90%;
     margin: auto;
     margin-top: 35px;
@@ -23,7 +23,7 @@ body{
     align-items: center;
 }
 .caja_link {
-    /* background: greenyellow; */
+ 
     display: flex;
 }
 .menu_suspensivos{
@@ -68,7 +68,7 @@ body{
     margin-top: 10%;
 }
 .concert_ticket {
-    /* background: rebeccapurple; */
+
     padding-top: 10px;
     width: 95%;
     height: auto;
@@ -83,7 +83,7 @@ body{
 /******* TITULO DEL CONCIERTO ********/
 
 .caja_padre_info {
-    /* background: brown; */
+ 
     padding: 5px;
     width: 95%;
     margin-left: 2%;
@@ -132,25 +132,25 @@ body{
 /********* CAJA 1 ******/
 
 .information1 {
-    /* background-color: aquamarine; */
+   
     padding: 5px;
 }
 .information1 p{
-    /* background: forestgreen; */
+    
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 .information1 span{
-    /* background: greenyellow; */
+ 
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
 .information2 {
-    /* background-color: rgb(79, 156, 131); */
+  
     padding: 5px;
 }
 .information2 p{
-    /* background: thistle; */
+
     font-size: 12px;
     font-family: "Inter-Regular";
 }
@@ -170,30 +170,30 @@ body{
     gap: 40%;
 }
 .information3 {
-    /* background-color: aquamarine; */
+   
     padding: 5px;
 }
 .information3 p{
-    /* background: forestgreen; */
+    
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 .information3 span{
-    /* background: greenyellow; */
+   
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
 .information4 {
-    /* background-color: rgb(79, 156, 131); */
+ 
     padding: 5px;
 }
 .information4 p{
-    /* background: thistle; */
+ 
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 .information4 span{
-    /* background: teal; */
+   
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
@@ -208,11 +208,11 @@ body{
     gap: 53%;
 }
 .information5 {
-    /* background-color: aquamarine; */
+
     padding: 5px;
 }
 .information5 p{
-    /* background: forestgreen; */
+   
     font-size: 12px;
     font-family: "Inter-Regular";
 }
@@ -222,16 +222,16 @@ body{
     font-family: "Inter-Semibold";
 }
 .information6 {
-    /* background-color: rgb(79, 156, 131); */
+ 
     padding: 5px;
 }
 .information6 p{
-    /* background: thistle; */
+    
     font-size: 12px;
     font-family: "Inter-Regular";
 }
 .information6 span{
-    /* background: teal; */
+  
     font-size: 14px;
     font-family: "Inter-Semibold";
 }
@@ -246,7 +246,7 @@ body{
     right: 1%;
 }
 .lineartxd img{
-    /* background: ghostwhite; */
+  
     /* padding: 5px; */
     width: 100%;
 }
@@ -255,12 +255,12 @@ body{
 /********************************* CODIGO DE BARRAS *************************/
 
 .codigo_barras {
-    /* background: indigo; */
+
     /* padding: 5px; */
     width: 100%;
 }
 .codigo_barras img{
-    /* background: navy; */
+ 
     padding: 5px;
     width: 85%;
     margin-left: 8%;
@@ -270,17 +270,17 @@ body{
 
 
 .coments {
-    /* background: khaki; */
+
     padding: 5px;
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    /* margin-left: 15%; */
+    
 }
 .coments span{
-    /* background: brown; */
+
     font-size: 12px;
     font-family: "Inter-Regular";
 }
